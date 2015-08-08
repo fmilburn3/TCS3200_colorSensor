@@ -1,5 +1,7 @@
 Demonstrates the TCS230/TCS3200 Color Sensor Recognition Module using Energia and the RGB LED on the MSP432 LaunchPad.
 
+See the wiki for a photograph of the sensor and examples of output.  The pin connections and further explanation are given inside the code.
+
 Don't expect a whole lot from this sketch (or the TCS3200 variants for that matter).  It can recognize primary colors and simple mixes.  This sketch cannot display white, black, grey, etc.  The sensor output changes, sometimes dramatically, with changing incident light, material reflectivity, material orientation, size, distance, your individual sensor, etc.
 
 The sensor works by reading light from photodiodes and gives an output for clear, red, green, and blue.  The output is in the form of a square wave with color a function of the wavelength (see datasheet).  The shorter the pulse, the higher the incidence of that color. The
